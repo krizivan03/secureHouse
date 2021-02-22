@@ -1,0 +1,20 @@
+Christopher Canales
+ASUID: 1207767596
+
+This is a python3 program that when excecution command
+./secure_house
+along with a name and 1..n keys as such
+./secure_house <name> <key1> <key2> ... <keyn>
+
+name is stored as Home owner and key1 through keyn are stored in list.
+masterKey  "FIREFIGHTER_SECRET_KEY" is also included in this list.
+
+Once program is executed there are 5 available commands.
+INSERT KEY <user_name> <key>
+TURN KEY <user_name>
+ENTER HOUSE <user_name>
+WHO'S INSIDE?
+CHANGE LOCKS <user_name> <key_1> <key_2> ... <key_n>
+LEAVE HOUSE <user_name>
+
+Commands ARE CASE SENSITIVE and MUST be in correct order!
